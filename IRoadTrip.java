@@ -335,7 +335,7 @@ public class IRoadTrip {
 
 
     public static void main(String[] args) throws Exception{
-        if(args.length != 3 || !args[0].equals("borders.txt") && !args[1].equals("capdist.csv") && !args[2].equals("state_name.tsv")){
+        if(args.length != 3 || !args[0].equals("borders.txt") || !args[1].equals("capdist.csv") || !args[2].equals("state_name.tsv")){
 			System.out.println("bad args");
 			return;
 		}
